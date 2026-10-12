@@ -24,7 +24,7 @@ This lab walks through the full Joiners, Movers, and Leavers (JML) lifecycle for
 ![Assigned Roles](screenshots/03-assigned-roles.png)
 ![Security Reader](screenshots/04-security-reader.png)
 ![IT Analysts Group](screenshots/05-it-analysts-group.png)
-![Authentication Methods](screenshots/06-authenti...ods.png)
+![Authentication Methods](screenshots/06-authentication-methods.png)
 
 ---
 
@@ -38,7 +38,7 @@ This lab walks through the full Joiners, Movers, and Leavers (JML) lifecycle for
 
 ![Role Updated](screenshots/07-role-updated.png)
 ![SOC Analysts Group](screenshots/08-soc-analysts-group.png)
-![Removed from IT Analysts](screenshots/09-removed-from-it-...ysts.png)
+![Removed from IT Analysts](screenshots/09-removed-from-it-analysts.png)
 
 ---
 
@@ -62,7 +62,7 @@ In a production environment the policy would be configured as:
 - **Cloud apps:** All cloud apps
 - **Grant:** Require multi-factor authentication
 
-![Conditional Access](screenshots/12-conditional-access-...view.png)
+![Conditional Access](screenshots/12-conditional-access-overview.png)
 
 ---
 
@@ -88,4 +88,4 @@ This lab directly mirrors tasks performed by first-line IT support and service d
 
 ---
 
-*Built by
+*Built by Poushali Majumder | BSc Cyber Security, First Class Honours, UWL 2026*
