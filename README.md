@@ -8,7 +8,7 @@ A hands-on home lab simulating real-world Identity and Access Management (IAM) w
 
 This lab walks through the full Joiners, Movers, and Leavers (JML) lifecycle for a fictional employee (Alex Johnson) inside a personal Microsoft Entra ID tenant.
 
-**Tools used:** Microsoft Entra ID (Free tier), Azure Portal, Microsoft 365
+**Tools used:** Microsoft Entra ID (Free tier), Azure Portal
 
 ---
 
@@ -18,7 +18,13 @@ This lab walks through the full Joiners, Movers, and Leavers (JML) lifecycle for
 - Set display name, job title (Junior Analyst), department (IT), company (Contoso)
 - Assigned **Security Reader** role
 - Created security group **IT-Analysts** and added Alex as a member
-- Verified account enabled status and reviewed authentication methods
+
+![User Created](screenshots/01-user-created.png)
+![User Profile](screenshots/02-user-profile.png)
+![Assigned Roles](screenshots/03-assigned-roles.png)
+![Security Reader](screenshots/04-security-reader.png)
+![IT Analysts Group](screenshots/05-it-analysts-group.png)
+![Authentication Methods](screenshots/06-authenti...ods.png)
 
 ---
 
@@ -30,28 +36,33 @@ This lab walks through the full Joiners, Movers, and Leavers (JML) lifecycle for
 - Added Alex to SOC-Analysts
 - Removed Alex from IT-Analysts (old access revoked)
 
+![Role Updated](screenshots/07-role-updated.png)
+![SOC Analysts Group](screenshots/08-soc-analysts-group.png)
+![Removed from IT Analysts](screenshots/09-removed-from-it-...ysts.png)
+
 ---
 
 ## Task 3 - Leaver: Secure Offboarding
 
 - Disabled Alex's account in Entra ID
 - Removed Alex from all security groups
-- Account retained in directory for audit purposes (standard practice before deletion)
+- Account retained in directory for audit purposes
+
+![Account Disabled](screenshots/10-account-disabled.png)
+![Removed from SOC](screenshots/11-removed-from-soc.png)
 
 ---
 
 ## Task 4 - Conditional Access (MFA Enforcement)
 
-Navigated to Security > Conditional Access in Entra ID. Conditional Access policy creation requires Microsoft Entra ID Premium P1, which is not available on the free tier.
+Navigated to Security > Conditional Access. Policy creation requires Microsoft Entra ID Premium P1, not available on the free tier.
 
-In a production environment, the policy would be configured as follows:
-
-- **Name:** Require MFA for All Users
+In a production environment the policy would be configured as:
 - **Users:** All users
 - **Cloud apps:** All cloud apps
 - **Grant:** Require multi-factor authentication
 
-This is the industry-standard approach to enforcing MFA across an organisation.
+![Conditional Access](screenshots/12-conditional-access-...view.png)
 
 ---
 
@@ -77,4 +88,4 @@ This lab directly mirrors tasks performed by first-line IT support and service d
 
 ---
 
-*Built by Poushali Majumder | BSc Cyber Security, First Class Honours, UWL 2026*
+*Built by
