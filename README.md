@@ -19,12 +19,12 @@ This lab walks through the full Joiners, Movers, and Leavers (JML) lifecycle for
 - Assigned **Security Reader** role
 - Created security group **IT-Analysts** and added Alex as a member
 
-![User Created](screenshots/01-user-created.png)
-![User Profile](screenshots/02-user-profile.png)
-![Assigned Roles](screenshots/03-assigned-roles.png)
-![Security Reader](screenshots/04-security-reader.png)
-![IT Analysts Group](screenshots/05-it-analysts-group.png)
-![Authentication Methods](screenshots/06-authentication-methods.png)
+![User Created](01-user-created.png)
+![User Profile](02-user-profile.png)
+![Assigned Roles](03-assigned-roles.png)
+![Security Reader](04-security-reader.png)
+![IT Analysts Group](05-it-analysts-group.png)
+![Authentication Methods](06-authentication-methods.png)
 
 ---
 
@@ -36,9 +36,9 @@ This lab walks through the full Joiners, Movers, and Leavers (JML) lifecycle for
 - Added Alex to SOC-Analysts
 - Removed Alex from IT-Analysts (old access revoked)
 
-![Role Updated](screenshots/07-role-updated.png)
-![SOC Analysts Group](screenshots/08-soc-analysts-group.png)
-![Removed from IT Analysts](screenshots/09-removed-from-it-analysts.png)
+![Role Updated](07-role-updated.png)
+![SOC Analysts Group](08-soc-analysts-group.png)
+![Removed from IT Analysts](09-removed-from-it-analysts.png)
 
 ---
 
@@ -48,8 +48,8 @@ This lab walks through the full Joiners, Movers, and Leavers (JML) lifecycle for
 - Removed Alex from all security groups
 - Account retained in directory for audit purposes
 
-![Account Disabled](screenshots/10-account-disabled.png)
-![Removed from SOC](screenshots/11-removed-from-soc.png)
+![Account Disabled](10-account-disabled.png)
+![Removed from SOC](11-removed-from-soc.png)
 
 ---
 
@@ -62,7 +62,7 @@ In a production environment the policy would be configured as:
 - **Cloud apps:** All cloud apps
 - **Grant:** Require multi-factor authentication
 
-![Conditional Access](screenshots/12-conditional-access-overview.png)
+![Conditional Access](12-conditional-access-overview.png)
 
 ---
 
