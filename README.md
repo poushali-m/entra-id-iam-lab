@@ -65,7 +65,39 @@ A common first-line IT support task is resetting a user's password when they are
 
 - Created a test user account (test.user@poushalisofficialgmail.onmicrosoft.com) to simulate a live user account
 - Navigated to Microsoft Entra ID > Users and opened the user profile
--
+- Clicked **Reset password** from the user profile toolbar
+- Entra ID generated a temporary password and confirmed: *"Password has been reset"*
+- The temporary password would be securely communicated to the user
+- On next sign-in, the user is forced to set a new permanent password before accessing any resources
+
+![Test User Profile](13-test-user-profile.png) ![Reset Password Panel](14-reset-password-panel.png) ![Password Reset Confirmation](15-password-reset-confirmed.png)
+
+> **Note:** The temporary password shown in the confirmation screen has been redacted in accordance with security best practices.
 
 ---
+
+## Skills Demonstrated
+
+- Microsoft Entra ID user and group management
+- JML lifecycle (Joiners, Movers, Leavers)
+- Role-Based Access Control (RBAC)
+- Secure offboarding procedures
+- Conditional Access policy design
+- Admin-initiated password resets and secure credential handover
+- IT support workflows: account creation, access changes, deprovisioning, password management
+
+---
+
+## Relevance to IT Support Roles
+
+This lab directly mirrors tasks performed by first-line IT support and service desk teams:
+
+- Creating and configuring new user accounts (Joiner)
+- Updating access when employees change roles (Mover)
+- Disabling accounts and revoking access on departure (Leaver)
+- Enforcing security policies through Conditional Access (MFA)
+- Resetting passwords and securely communicating temporary credentials to users
+
+---
+
 *Built by Poushali Majumder | BSc Cyber Security, First Class Honours, UWL 2026*
